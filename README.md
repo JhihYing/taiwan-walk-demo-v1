@@ -2,33 +2,33 @@
 ![](https://i.imgur.com/Wb4BULe.jpg)
 
 ## 專案說明
-以 台灣旅遊景點導覽 為主題的網站。
+《台灣走走．Tai Walk》是一個以「台灣旅遊景點導覽」為主題的網站，使用者可依城市、主題與關鍵字搜尋景點、活動、美食資訊，並查看地圖與 3 公里內的周邊資訊。
 
-做此專案的主要目的：
 
+## 開發目的
 - 練習 原生 JavaScript
-- 練習 如何使用 Axios套件 串接API
-
+- 練習 使用 Axios套件 串接API
+  
 
 ## Demo
 https://tai-walk-alpha.vercel.app/ (無RWD) 
 
 
 ## 使用技術 / 套件
-- 以手刻的方式來開發 UI 介面
-- 透過 Axios套件 串接 TDX API 來取得旅遊資料
-- 使用 Google Maps Embed Api 獲得相對應的地圖資訊
-
-【使用】HTML5、CSS3、JavaScript、SASS (SCSS)、jQuery
-
-【套件應用】Swiper (輪播圖)、Axios
+| 類別        | 技術／工具說明                                   |
+|------------|------------------------------------------------|
+| 技術        | HTML5、CSS3、JavaScript、SASS (SCSS)、jQuery    |
+| 資料串接     | TDX API (交通部觀光資料)，使用 HMAC-SHA1 簽章驗證（AppID / AppKey）|
+| 地圖嵌入     | Google Maps Embed API                         |
+| 套件應用     | Swiper（輪播圖）、Axios                           |
+| 部署平台     | Vercel                                         |
 
 
 ## 主要功能
- - 關鍵字搜尋
- - 依照縣市、主題、日期來篩選資料
- - 顯示搜尋結果的週邊資訊 (三公里以內的景點、活動、美食)
- - 隨機排列的推薦資訊
+ - 多條件搜尋（城市、主題、關鍵字）
+ - 活動搜尋支援「起訖日期」篩選，僅顯示尚未結束的活動
+ - 顯示 3 公里內的周邊景點／活動／美食資訊
+ - 詳細頁整合 Google Map、推薦資訊
 
 
 ## 參考資料
